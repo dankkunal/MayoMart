@@ -1,0 +1,140 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.account {
+    height:100%;
+    width:100%;
+    background-image:linear-gradient(rgba(241, 239, 241, 0.4),rgba(155, 154, 154, 0.4)),url(https://thumbs.dreamstime.com/b/black-shopping-bags-background-set-friday-flat-lay-copy-space-125738075.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+.container{
+    width: 380px;
+    height:480px;
+    padding:5px;
+    position: relative;
+    margin: 6% auto;
+    background: rgb(238, 237, 237);
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 1px 2px 9px rgb(243, 202, 97);
+}
+
+.row{
+        width: 220px;
+        margin: 35px auto;
+        position: relative;
+        box-shadow: 0 10px 20px 9px #2b2e2b1f;
+        border-radius: 30px;
+    }
+    .toggle-btn{
+        padding: 10px 30px;
+        cursor:pointer;
+        background: transparent;
+        border: 0;
+        outline:black;
+        position: relative;
+        font-family: cursive;
+        font-weight: bolder;
+    }
+    #btn{
+        top:0;
+        left:0;
+        position: absolute;
+        width: 110px;
+        height: 100%;
+        background: linear-gradient(to right, #4e4f50, #c2cacc);
+        border-radius: 30px;
+        transition: 0.5s;
+    }
+    .icons{
+        margin: 30px auto;
+        text-align: center;
+    }
+    #twitter:hover{
+        transform: translateY(-5px);
+    }
+    #insta:hover{
+        transform: translateY(-5px);
+    
+    }
+    #fb:hover{
+        transform: translateY(-5px);
+    }
+    .icons img{
+        width:30px;
+    }
+    .input{
+        top:180px;
+        position: absolute;
+        width: 280px;
+        transition: 0.5s;
+    }
+    input:hover{
+        box-shadow: 5px 5px 20px 0px rgb(238, 192, 107);
+    }
+    .input-field{
+        width:100%;
+        padding: 10px 0;
+        margin: 5px 0;
+        border-left: 2px solid #999;
+        border-top: 2px solid #999;
+        border-right: 2px solid #999;
+        border-bottom: 2px solid #999;
+        outline: none;
+        background: transparent;
+    }
+    .submit-btn{
+        width:85%;
+        padding:10px 30px;
+        cursor:pointer;
+        display:block;
+        margin: auto;
+        background: linear-gradient(to right, #4e4f50, #c2cacc);
+        border:0;
+        outline:none;
+        border-radius: 30px;
+        font-family: cursive;
+        font-weight: bolder;
+    }
+    .checkbox{
+        margin:30px 10px 30px 0;
+    }
+    .checkbox span{
+        font-weight: bolder;
+    }
+    span{
+        color:rgb(20, 19, 19);
+        font-size: 12px;
+        bottom:68px;
+        position: absolute;
+    }
+    #login{
+        left:50px;
+    }
+    #register{
+        left:450px;
+    }
+    #twitter{
+        width:17.5px;
+    }
+    #insta{
+        width:18px;
+        height:18px;
+        margin-left:5px;
+        padding-top: 10px;
+    }
+    .toggle-btn a{
+        text-decoration: none;
+        font-family: cursive;
+        font-weight: bolder;
+        color:black;
+    }
+    .toggle-btn a:hover{
+        color:blue;
+    }

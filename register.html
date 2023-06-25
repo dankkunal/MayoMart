@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<div cl>, initial-scale=1.0">
+    <title>Register page</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    .account {
+        height:100%;
+        width:100%;
+        background-image:linear-gradient(rgba(241, 239, 241, 0.4),rgba(155, 154, 154, 0.4)),url(https://thumbs.dreamstime.com/b/black-shopping-bags-background-set-friday-flat-lay-copy-space-125738075.jpg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    .container{
+        width: 380px;
+        height:480px;
+        padding:5px;
+        position: relative;
+        margin: 6% auto;
+        background: rgb(238, 237, 237);
+        
+        border-radius: 20px;
+        box-shadow: 1px 2px 9px rgb(243, 202, 97);
+    }
+    
+    .row{
+            width: 220px;
+            margin: 35px auto;
+            position: relative;
+            box-shadow: 0 10px 20px 9px #2b2e2b1f;
+            border-radius: 30px;
+        }
+        .toggle-btn{
+            padding: 10px 30px;
+            cursor:pointer;
+            background: transparent;
+            border: 0;
+            outline:black;
+            position: relative;
+            font-family: cursive ;
+            font-weight: bold;
+        }
+        #btn{
+            top:0;
+            left:0;
+            position: absolute;
+            width: 110px;
+            height: 100%;
+            background: linear-gradient(to right, #4e4f50, #c2cacc);
+            border-radius: 30px;
+            transition: 0.5s;
+        }
+        .icons{
+            margin: 30px auto;
+            text-align: center;
+        }
+        #twitter:hover{
+            transform: translateY(-5px);
+        }
+        #insta:hover{
+            transform: translateY(-5px);
+        
+        }
+        #fb:hover{
+            transform: translateY(-5px);
+        }
+        .icons img{
+            width:30px;
+        }
+        .input{
+            top:180px;
+            position: absolute;
+            width: 280px;
+            transition: 0.5s;
+        }
+        input:hover{
+            box-shadow: 2px 5px 10px 2px rgb(238, 192, 107);
+        }
+        .input-field{
+            width:100%;
+            padding: 10px 0;
+            margin: 5px 0;
+            border-left: 2px solid #999;
+            border-top: 2px solid #999;
+            border-right: 2px solid #999;
+            border-bottom: 2px solid #999;
+            outline: none;
+            background: transparent;
+        }
+        .submit-btn{
+            width:85%;
+            padding:10px 30px;
+            cursor:pointer;
+            display:block;
+            margin: auto;
+            background: linear-gradient(to right, #4e4f50, #c2cacc);
+            border:0;
+            outline:none;
+            border-radius: 30px;
+            font-family:cursive;
+            font-weight: bolder;
+        }
+        .checkbox{
+            margin:30px 10px 30px 0;
+        }
+        span{
+            color:rgb(20, 19, 19);
+            font-size: 12px;
+            bottom:68px;
+            position: absolute;
+        }
+        #login{
+            left:50px;
+        }
+        #register{
+            left:450px;
+        }
+        #twitter{
+            width:17.5px;
+        }
+        #insta{
+            width:18px;
+            height:18px;
+            margin-left:5px;
+            padding-top: 10px;
+        }
+        .toggle-btn a{
+            text-decoration: none;
+            color: black;
+            font-family: cursive;
+            font-weight: bolder;
+        }
+        .toggle-btn a:hover{
+           color:  rgb(55, 58, 230);
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="account">
+        <div class="container">
+            <div class="row">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn">Register</button>
+                <button type="button" class="toggle-btn"><a href="login.html">Login</a></button>
+                </div>
+                <div class="icons">
+                    <a href="https://www.facebook.com"><img src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png" id="fb"></a>
+                    <a href="https://www.twitter.com"><img src="https://icon-library.com/images/twitter-bird-icon-png/twitter-bird-icon-png-6.jpg" id="twitter"></a>
+                   <a href="https://www.instagram.com" target="_blank"> <img src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c521.png" id="insta"></a>
+                    </div>
+                    <form class="input" id="login">
+                        <input type="text" class="input-field" placeholder="User Id" required>
+                          <input type="text" class="input-field" placeholder="Enter Email" required>
+                          <input type="text" class="input-field" placeholder="Enter Password" required>
+                          <input type="checkbox" class="checkbox">
+                           <span>I agree to the terms & conditions</span>
+                        
+                          <button type="submit" class="submit-btn">Register</button>
+                      </form>
+
+               <!--- <form class="input" id="register">
+                    <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="text" class="email" placeholder="Email Id" required>
+                    <input type="text" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="checkbox"> <span>I agree to the terms & conditions</span>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>-->
+                </div>
+
+                </div>
+                </body>
+                </html>
+
+        
+                

@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+
+:root{
+    --main-bg-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Inconsolata', monospace;
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 88px;
+    padding-right: 30px;
+}
+
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px ;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(214, 214, 37);
+  
+    /* font-weight: bold; */
+}
+nav ul li a:active{
+    color: darkorchid;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 660px;
+    height: 30px;
+    border-radius: 6px;
+    margin-right: 10px;
+    padding: 0 10px;
+}
+
+.search button{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    background-color: var(--main-bg-color);
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+main{
+    min-height: 100vh;
+}
+
+.quote{
+    height: 50vh;
+    padding: 30px ;
+    font-family: 'Mate SC', serif;
+    font-size: larger;
+    background-color: darkseagreen;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading h2{
+    font-size: 8vh;
+    color: darkseagreen;
+    font-family: 'Dancing Script', cursive;
+}
+
+.heading hr{
+    width: 80vw;
+    color: darkseagreen;
+}
+
+.hor-ruler{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;  
+}
+
+.row{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col{
+    height: 50vh;
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(214, 206, 206, 0.1);
+    border-radius: 15px;
+    background-color: rgb(247, 249, 252);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: large;
+}
+
+.col img{
+    border-radius: 10px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact button{
+    color: white;
+    background-color: darkseagreen;
+    height: 5vh;
+    width:10vw;
+    border-radius: 13px;
+}
+
+.contact button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    min-height: 10vh;
+    color: white;
+    justify-content: center;
+    background-color: var(--main-bg-color);
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<div cl>, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="css/login.css">
+    
+</head>
+<body>
+    <div class="account">
+        <div class="container">
+            <div class="row">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn">Login</button>
+                <button type="button" class="toggle-btn"><a href="register.html" >Register</a></button>
+                </div>
+                <div class="icons">
+                    <a href="https://www.facebook.com"><img src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png" id="fb"></a>
+                    <a href="https://www.twitter.com"><img src="https://icon-library.com/images/twitter-bird-icon-png/twitter-bird-icon-png-6.jpg" id="twitter"></a>
+                   <a href="https://www.instagram.com" target="_blank"> <img src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c521.png" id="insta"></a>
+                    </div>
+
+                    <form class="input" id="login">
+                  <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="text" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="checkbox"> <span>Remember Password</span>
+                    <button type="submit" class="submit-btn">Login</button>
+                </form>
+                <form class="input" id="register">
+                    <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="text" class="email" placeholder="Email Id" required>
+                    <input type="text" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="checkbox"> <span>I agree to the terms & conditions</span>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+                </div>
+
+                </div>
+
+                
+
+                <script>
+                    var x = document.getElementsById("login");
+                    var y = document.getElementsById("register");
+                    var z = document.getElementsById("btn");
+
+                    function register(){
+                        x.style.left = "-400px";
+                        y.style.left = "50px";
+                        z.style.left = "110px";
+                    }
+                    function login(){
+                        x.style.left = "50px";
+                        y.style.left = "450px";
+                        z.style.left = "0px";
+                    }
+                </script>
+</body>
+</html>
