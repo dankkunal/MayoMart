@@ -1,4 +1,4 @@
-*Kindly open Home.html First and then you may explore all the other buttons, links and pages accordingy. 
+*Kindly open Index.html First and then you may explore all the other buttons, links and pages accordingy. 
 
 Group No.- 7
 Members -
